@@ -1,50 +1,64 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Halant&display=swap" rel="stylesheet">
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Page</title>
-    <link rel="stylesheet" href="form.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Page</title>
+   <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
-    <form action="" method="post">
-   <h1>Contact Form</h1>
-    <div>
-   <label for="Name">Name:</label><input class="field" type="text" name="name" id="name" placeholder="Enter Your Name" required> 
-</div>
-<div>
-   <label for="Username">Username:</label><input class="field" type="text" name="username" id="username" placeholder="Enter your username" required>
-</div>
-<div>
-   <label for="password">Password:</label><input class="field" type="password" name="password" id="password" pattern="[a-zA-Z(8)]" placeholder="Enter your Password"  required>
-</div>
-<div>
-   <label for="password">Re-type Password:</label> <input class="field" type="password" name="password" id="password1" placeholder="Re-type Password"  required> 
-</div>
-<div>
-   <label for="gender">Gender:</label> <input class="field" type="radio" name="gender" id="Male">Male <input type="radio" name="gender" id="female">Female
-</div>
-<div>
-   <label for="skills">Techie Skills:</label><input class="field" type="checkbox" name="skills" id="html">HTML <input type="checkbox" name="skills" id="css">CSS <input type="checkbox" name="skills" id="java">JavaScript
-</div>
-<div>
-   <label for="number">Phone Number:</label><input class="field" type="tel" name="number" id="number" placeholder="Enter your phone number" required>
-</div>
-<div>
-   <label for="email">Email:</label> <input class="field" type="email" name="email" id="email" placeholder="Enter your Email address" required> 
-</div>
-<div>
-   <label for="college">College:</label><select class="field" name="college" id="college-select"  required>
-    <option value="">Select a College</option>
-    <option value="UPSS">UPSS</option>
-    <option value="UDSS">UDSS</option>
-    <option value="CHS">CHS</option>
-   </select> 
-</div>
-<div>
-   <button type="submit">Submit</button>
-</div>   
-</form>
+   <form action="" method="post">
+      <h1>Contact Form</h1>
+      <div>
+         <label for="Name">Name:</label><input class="field" type="text" name="name" id="name"
+            placeholder="Enter Your Name" required>
+      </div>
+      <div>
+         <label for="Username">Username:</label><input class="field" type="text" name="username" id="username"
+            placeholder="Enter your username" required>
+      </div>
+      <div>
+         <label for="password">Password:</label><input class="field" type="password" name="password" id="password"
+            pattern="[a-zA-Z(8)]" placeholder="Enter your Password" required>
+      </div>
+      <div>
+         <label for="password">Re-type Password:</label> <input class="field" type="password" name="password"
+            id="password1" placeholder="Re-type Password" required>
+      </div>
+      <div>
+         <label for="gender">Gender:</label> <input class="field" type="radio" name="gender" id="Male">Male <input
+            type="radio" name="gender" id="female">Female
+      </div>
+      <div>
+         <label for="skills">Techie Skills:</label><input class="field" type="checkbox" name="skills" id="html">HTML
+         <input type="checkbox" name="skills" id="css">CSS <input type="checkbox" name="skills" id="java">JavaScript
+      </div>
+      <div>
+         <label for="number">Phone Number:</label><input class="field" type="tel" name="number" id="number"
+            placeholder="Enter your phone number" required>
+      </div>
+      <div>
+         <label for="email">Email:</label> <input class="field" type="email" name="email" id="email"
+            placeholder="Enter your Email address" required>
+      </div>
+      <div>
+         <label for="college">College:</label><select class="field" name="college" id="college-select" required>
+            <option value="">Select a College</option>
+            <option value="UPSS">UPSS</option>
+            <option value="UDSS">UDSS</option>
+            <option value="CHS">CHS</option>
+         </select>
+      </div>
+      <div class="button">
+         <button type="submit">Submit</button>
+      </div>
+   </form>
 </body>
+
 </html>
