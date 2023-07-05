@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Halant&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: font-family: 'Courgette', cursive; */
+    font-family: 'Halant', serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 auto;
+    background-color: aqua;
+}   
+
+h1 {
+    margin: 22px 0 12px 30px;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+label {
+    margin: 0 30px;
+    justify-content: space-between;
+}
+
+.field {
+    align-items: flex-end;
+}
+
+
+
+
